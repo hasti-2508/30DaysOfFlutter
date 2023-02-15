@@ -49,4 +49,11 @@ class CatalogModel {
         color: "black",
         image: "https://m.media-amazon.com/images/I/51ZeW4RBJaS._UX425_.jpg")
   ];
+
+    // Get Item by ID
+  static Item getById(int id) =>
+      items.firstWhere((element) => element.id == id, orElse: null);
+
+  // Get Item by position
+  static Item getByPosition(int pos) => items[pos];
 }
