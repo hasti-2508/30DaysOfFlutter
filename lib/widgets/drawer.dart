@@ -13,7 +13,7 @@ class MyDrawer extends StatelessWidget {
 
     return Drawer(
       child: Container(
-        color: Color.fromARGB(255, 202, 202, 202),
+        color: Color.fromARGB(255, 226, 226, 226),
         child: ListView(
           children:[
             DrawerHeader(
@@ -54,7 +54,7 @@ class MyDrawer extends StatelessWidget {
                 CupertinoIcons.bell_circle_fill,
                 color: Colors.blueGrey,
               ),
-              title: Text("Notifications",style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold,color: Colors.blueGrey),),
+              title: Text("Orders",style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold,color: Colors.blueGrey),),
             ),
             ListTile(
               leading: Icon(
